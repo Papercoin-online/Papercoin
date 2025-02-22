@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaperCoin - Invest for a Greener Future</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .hero {
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px;
+            font-size: 18px;
+            color: white;
+            background: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="file-H6tLqr7Lf9HZLs7iF8NyUX" alt="PaperCoin Token Sale Now Live" style="width: 100%; max-height: 400px; object-fit: cover;">
+    </header>
+    <div class="hero">
+        <h1>PaperCoin</h1>
+        <p>Invest for a Greener Future</p>
+        <a href="#whitepaper" class="btn">Read Whitepaper</a>
+        <a href="https://tokepad.xyz/market/0x5f184c04dc6b53ab0f202e466bf7aa1f4fa88eb3" class="btn">Buy Now</a>
+    </div><div id="whitepaper" class="section">
+    <h2>About PaperCoin</h2>
+    <p>PaperCoin is a cryptocurrency supporting global paper recycling.</p>
+    <a href="https://docs.google.com/document/d/1ZKx_c5rCzaOB7JolSb3BhUCjcShETEgYrAhEsvYg51A/edit?usp=drivesdk" class="btn">Download Whitepaper</a>
+</div>
+
+<div id="vision" class="section">
+    <h2>Vision</h2>
+    <p>The sustainable use of waste paper is a key component of a resource-efficient circular economy. Our goal is to establish an innovative token-based reward system that ensures waste paper is efficiently and economically made available to paper mills worldwide.</p>
+    <p>The price of waste paper fluctuates significantly, which directly affects the production costs and economic viability of the paper industry. To address these challenges, we continuously analyze price developments and ensure that our token serves as a stabilizing element in the value chain.</p>
+</div>
+
+<div id="buy" class="section">
+    <h2>Buy PaperCoin</h2>
+    <p>Available on major exchanges. Connect your wallet to invest.</p>
+    <a href="https://tokepad.xyz/market/0x5f184c04dc6b53ab0f202e466bf7aa1f4fa88eb3" class="btn">Buy Now</a>
+</div>
+
+<footer>
+    <p>Follow us on social media</p>
+    <a href="https://x.com/PaperCoin_Base?t=n9Ams0kHCLBDh_9uduKMZw&s=09">Twitter</a> |
+    <a href="https://www.instagram.com/papercoin_base?igsh=cWhwc3VoeGpybmR3">Instagram</a>
+</footer>
+
+</body>
+</html>

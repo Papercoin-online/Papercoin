@@ -7,8 +7,8 @@ body {
     color: #222;
 }
 .header-image {
-    width: 100%;  /* Volle Breite */
-    max-height: 250px;  /* Begrenzte Höhe */
+    width: 10%;  /* Volle Breite */
+    max-height: 25px;  /* Begrenzte Höhe */
     object-fit: cover;  /* Zuschneiden, falls nötig */
     display: block;
 }

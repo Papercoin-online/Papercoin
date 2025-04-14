@@ -152,3 +152,65 @@ h1 {
 .btn:hover {
     background-color: #218838;
 }
+.private-sale,
+.progress-tracker {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.private-sale h1,
+.progress-tracker h2 {
+    color: #2b5b84;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.private-sale p,
+.progress-tracker li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.private-sale a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2b5b84;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.private-sale a.btn:hover {
+    background-color: #1f4262;
+}
+
+.progress-tracker ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.progress-tracker li {
+    margin: 8px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.progress-tracker li::before {
+    content: "✔";
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.progress-tracker li:has(input[type="checkbox"]:not(:checked))::before {
+    content: "○";
+    color: #ccc;
+}

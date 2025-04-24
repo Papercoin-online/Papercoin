@@ -214,3 +214,23 @@ h1 {
     content: "○";
     color: #ccc;
 }
+.header-image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}

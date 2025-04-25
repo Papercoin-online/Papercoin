@@ -107,7 +107,7 @@ footer {
 
 h1 {
     color: #222;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav ul {
@@ -140,7 +140,7 @@ nav ul li {
 .vision {
     max-width: 600px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 18px;
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -150,14 +150,14 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 18px;
 }
 
 .roadmap {
     max-width: 800px;
     margin: auto;
     background: #fff;
-    padding: 20px;
+    padding: 18px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -169,7 +169,7 @@ h1 {
 
 .phase {
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 10px;
     border-left: 5px solid #007bff;
     background: #eef5ff;
     border-radius: 5px;

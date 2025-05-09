@@ -315,3 +315,49 @@ h1 {
 .logo {
     height: 80px;
 }
+.our-story {
+  background: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.our-story h2 {
+  color: #2c6e49;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.our-story p {
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.founder-box {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.founder-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.founder-info h3 {
+  margin: 0;
+  color: #2c6e49;
+}
+
+.founder-info p {
+  margin: 0;
+  font-weight: bold;
+}

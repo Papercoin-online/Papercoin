@@ -21,6 +21,74 @@ header img {
   object-fit: cover;
 }
 
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+main.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+/* Titles */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #3498db;
+  padding-left: 0.5rem;
+}
+
+.section p,
+.section ul {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.section ul {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+/* Image */
+.infographic {
+  display: block;
+  max-width: 100%;
+  margin: 3rem auto 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Navigation */
 nav.main-nav ul {
   display: flex;

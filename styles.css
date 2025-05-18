@@ -1,163 +1,55 @@
-/* Grundlegende Formatierungen */
+/* Allgemeine Layout-Stile */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #222;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
+    background: #f6f6f6;
 }
 
-/* Hauptinhalt */
-main, section, .roadmap, .vision, .phase, .our-story, .private-sale, .progress-tracker, .container {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 1rem 1.5rem;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-/* Überschriften */
-h1, h2 {
-    color: #2c6e49;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-/* Header-Bild */
-header img,
-.header-image {
+/* Header */
+header img {
     width: 100%;
-    max-width: 1024px;
     height: auto;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 1rem;
 }
 
 /* Navigation */
-nav.main-nav ul,
-nav ul {
-    list-style: none;
+nav.main-nav ul {
     display: flex;
-    flex-wrap: wrap;
+    list-style: none;
     justify-content: center;
-    background: #2c6e49;
+    gap: 15px;
     padding: 1rem;
+    background: #2c6e49;
     margin: 0;
+    flex-wrap: wrap;
 }
 
-nav.main-nav li,
-nav ul li {
-    margin: 0.5rem;
-}
-
-nav.main-nav a,
-nav a {
+nav.main-nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5rem 1rem;
-    background: #3a7e59;
-    border-radius: 5px;
-    transition: background 0.3s;
 }
 
-nav a:hover {
-    background: #58a27d;
-}
-
-/* Sektionen */
-.section h2,
-.our-story h2 {
-    border-left: 4px solid #3498db;
-    padding-left: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.section p,
-.section ul,
-.our-story p,
-.private-sale p,
-.progress-tracker li {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-.section ul,
-ul {
-    padding-left: 1.25rem;
-    list-style-type: disc;
-}
-
-/* Bilder */
-.infographic,
-.founder-box img {
-    display: block;
-    max-width: 100%;
+/* Inhalte */
+section {
+    padding: 2rem;
+    background: white;
     margin: 1rem auto;
+    max-width: 1000px;
     border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
-.button,
-.btn,
-.private-sale a.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s;
+h1, h2 {
+    color: #2c6e49;
 }
 
-.button, .btn {
-    background-color: transparent;
-    color: #4CAF50;
-    border: 2px solid #4CAF50;
-}
-
-.button:hover, .btn:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.private-sale a.btn {
-    background-color: #2b5b84;
-    color: white;
-}
-
-.private-sale a.btn:hover {
-    background-color: #1f4262;
-}
-
-/* Fortschrittsanzeige */
-.progress-tracker li {
-    position: relative;
-    padding-left: 25px;
-}
-
-.progress-tracker li::before {
-    content: "✔";
-    position: absolute;
-    left: 0;
-    color: #2ecc71;
-}
-
-.progress-tracker li:has(input[type="checkbox"]:not(:checked))::before {
-    content: "○";
-    color: #ccc;
+/* Icons */
+.exchange-logos img,
+.social-icons img {
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /* Footer */
@@ -166,45 +58,48 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: 2rem;
     font-size: 0.9rem;
 }
 
-/* Logos */
-.logo {
-    height: 80px;
-    margin-right: 10px;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-/* Gründerbereich */
+/* Founder Box */
 .founder-box {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.founder-box img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .founder-info h3 {
     margin: 0;
-    color: #2c6e49;
 }
 
-.founder-info p {
-    margin: 0;
-    font-weight: bold;
+/* Infografik */
+.infographic {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 0;
 }
 
-/* Mobile Optimierung */
+/* Responsive Design */
 @media (max-width: 768px) {
-    nav ul {
+    nav.main-nav ul {
         flex-direction: column;
         align-items: center;
+        gap: 10px;
+        padding: 1rem;
+    }
+
+    .exchange-logos img,
+    .social-icons img {
+        height: 30px;
     }
 
     .founder-box {
@@ -212,21 +107,7 @@ footer {
         text-align: center;
     }
 
-    .btn, .button {
-        width: 100%;
-        padding: 12px;
-        font-size: 1rem;
-    }
-
-    main, section, .container {
-        padding: 1rem;
-    }
-
-    h1 {
-        font-size: 1.6rem;
-    }
-
-    h2 {
-        font-size: 1.25rem;
+    .founder-box img {
+        width: 80px;
     }
 }

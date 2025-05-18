@@ -6,136 +6,15 @@
   <title>PaperCoin</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f6f6f6;
-    }
-
-    header img {
-      width: 100%;
-      height: auto;
-    }
-
-    nav.main-nav {
-      background: #2c6e49;
-      position: relative;
-    }
-
-    nav.main-nav ul {
-      display: flex;
-      list-style: none;
-      justify-content: center;
-      gap: 15px;
-      padding: 1rem;
-      margin: 0;
-      flex-wrap: wrap;
-    }
-
-    nav.main-nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .burger {
-      display: none;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 40px;
-      height: 40px;
-      cursor: pointer;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-
-    .burger div {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      margin: 4px 0;
-      transition: 0.3s;
-    }
-
-    @media (max-width: 768px) {
-      nav.main-nav ul {
-        display: none;
-        flex-direction: column;
-        background-color: #2c6e49;
-        width: 100%;
-        text-align: center;
-      }
-
-      nav.main-nav ul.active {
-        display: flex;
-      }
-
-      .burger {
-        display: flex;
-      }
-    }
-
-    section {
-      padding: 2rem;
-      background: white;
-      margin: 1rem auto;
-      max-width: 1000px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    h1,
-    h2 {
-      color: #2c6e49;
-    }
-
-    .exchange-logos img,
-    .social-icons img {
-      height: 40px;
-      margin-right: 10px;
-      vertical-align: middle;
-    }
-
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-    }
-
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 1s ease-out, transform 1s ease-out;
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .founder-box {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-top: 1rem;
-    }
-
-    .founder-box img {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    .founder-info h3 {
-      margin: 0;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f6f6f6; }
+    header img { width: 100%; height: auto; }
+    nav.main-nav ul { display: flex; list-style: none; justify-content: center; gap: 15px; padding: 1rem; background: #2c6e49; margin: 0; }
+    nav.main-nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; background: white; margin: 1rem auto; max-width: 1000px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1, h2 { color: #2c6e49; }
+    .exchange-logos img, .social-icons img { height: 40px; margin-right: 10px; vertical-align: middle; }
+    footer { background: #222; color: white; text-align: center; padding: 1rem; margin-top: 2rem; font-size: 0.9rem; }
+    .infographic { width: 100%; max-width: 900px; margin-top: 1rem; }
   </style>
 </head>
 <body>
@@ -145,19 +24,14 @@
 </header>
 
 <nav class="main-nav">
-  <div class="burger">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
   <ul>
     <li><a href="#buy">How to Buy</a></li>
     <li><a href="#vision">Our Vision</a></li>
+    <li><a href="#incentive-model">Incentive Model</a></li>
     <li><a href="#NFTCollection">NFT Collection</a></li>
     <li><a href="#contact">Contact Us</a></li>
     <li><a href="#impressum">Impressum</a></li>
     <li><a href="#our-story">Our Story</a></li>
-    <li><a href="#model">Incentive Model</a></li>
     <li><a href="https://drive.google.com/file/d/18uLM1LscAQI1bCuZHT_jR_v-uVPLQO7_/view?usp=drivesdk">whitepaper</a></li>
     <li><a href="https://businesswaste.com/waste-types/paper-recycling/paper-recycling-facts/">facts</a></li>
   </ul>
@@ -165,115 +39,125 @@
 
 <main>
 
-  <section class="fade-in" id="vision">
-    <h2>Our Vision</h2>
-    <p>PaperCoin is a revolutionary token designed to transform the waste paper recycling industry...</p>
-  </section>
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>PaperCoin is a revolutionary token designed to transform the waste paper recycling industry. By offering a decentralized incentive system, we aim to increase recycling participation, stabilize pricing, and add long-term value to both the environment and investors.</p>
+</section>
 
-  <section class="fade-in" id="model">
-    <h1 class="title">The PaperCoin Incentive Model</h1>
-    <h2 class="subtitle">Empowering Circular Economy through Blockchain Technology</h2>
+<section id="incentive-model">
+  <h2>The PaperCoin Incentive Model</h2>
+  <h3>Empowering Circular Economy through Blockchain Technology</h3>
 
-    <h2>1. Certificates as On-Chain Assets</h2>
-    <p>Each verified ton of recycled wastepaper is represented by a unique NFT certificate...</p>
+  <h4>1. Certificates as On-Chain Assets</h4>
+  <p>
+    Each verified ton of recycled wastepaper is represented by a unique NFT certificate (Proof of Recycling – PoRC), similar to carbon credits.
+    These certificates are tradable and can only be generated through real, verifiable production data.
+  </p>
+  <p>
+    <strong>PaperCoin acts as a utility token</strong> to issue, acquire, or transfer these recycling certificates.
+    <br />
+    <strong>Token value correlation:</strong> The higher the demand for certificates (e.g. from companies, investors, or for ESG reporting), the more PaperCoins are required.
+  </p>
 
-    <h2>2. Limited Token Release Based on Verified Recycling</h2>
-    <p>The total supply of PaperCoin is fixed, but token distribution is tied to actual recycling performance...</p>
+  <h4>2. Limited Token Release Based on Verified Recycling</h4>
+  <p>
+    The total supply of PaperCoin is fixed, but token distribution is tied to actual recycling performance.
+    For example: 1,000,000 PaperCoins may be unlocked for every verified ton of recycled wastepaper and distributed to involved parties (mills, collectors, supporters).
+  </p>
+  <p><strong>Less recycling = fewer coins released = scarcity drives token value.</strong></p>
 
-    <h2>3. Scarcity Drives Demand and Price Incentives</h2>
-    <p>As wastepaper becomes harder to source, its market price increases...</p>
+  <h4>3. Scarcity Drives Demand and Price Incentives</h4>
+  <p>
+    As wastepaper becomes harder to source, its market price increases. Businesses look for alternatives or investment opportunities in recycling.
+    PaperCoin becomes a financial tool to participate in the value chain of recovered paper, thanks to its traceable and verifiable blockchain foundation.
+  </p>
+  <p><strong>Investors can buy PaperCoins</strong> as a way to engage in the growing demand for recycling.</p>
 
-    <h2>4. Staking & Rewards for Collectors and Traders</h2>
-    <p>Collectors or suppliers who deliver high-quality wastepaper receive PaperCoin rewards via smart contracts...</p>
+  <h4>4. Staking & Rewards for Collectors and Traders</h4>
+  <p>
+    Collectors or suppliers who deliver high-quality wastepaper receive PaperCoin rewards via smart contracts.
+    Better quality or consistency results in more tokens – encouraging cleaner delivery chains and reducing contamination.
+  </p>
 
-    <h2>5. Platform Marketplace for Certificates & Tokens</h2>
-    <ul>
-      <li>Buy certificates</li>
-      <li>Acquire, swap, or stake PaperCoins</li>
-      <li>Position themselves as sponsors</li>
-    </ul>
+  <h4>5. Platform Marketplace for Certificates & Tokens</h4>
+  <ul>
+    <li>Buy certificates (e.g., for ESG reports or compensation)</li>
+    <li>Acquire, swap, or stake PaperCoins</li>
+    <li>Position themselves as sponsors and demonstrate environmental commitment</li>
+  </ul>
 
-    <h2>Added Value: Price Linked to Real Use</h2>
-    <ul>
-      <li>It builds trust</li>
-      <li>It creates price stability</li>
-      <li>It fosters a long-term ecosystem</li>
-    </ul>
+  <h4>Added Value: Price Linked to Real Use</h4>
+  <ul>
+    <li>It builds trust – even with regulators or ESG auditors</li>
+    <li>It creates price stability through real-world demand</li>
+    <li>It fosters a long-term, functional ecosystem</li>
+  </ul>
 
-    <img src="papercoin_token_model.png" alt="PaperCoin Token Model" class="infographic" />
-  </section>
+  <img src="papercoin_token_model.png" alt="PaperCoin Token Model Infographic" class="infographic" />
+</section>
 
-  <section class="fade-in" id="our-story">
-    <h2>The Origin of PaperCoin – Turning Vision into Purpose</h2>
-    <p>The idea behind PaperCoin emerged from a growing awareness...</p>
-    <div class="founder-box">
-      <img src="roy-eggert.jpg" alt="Roy Eggert" />
-      <div class="founder-info">
-        <h3>Roy Eggert</h3>
-        <p>Founder of PaperCoin</p>
-      </div>
+<section id="our-story">
+  <h2>The Origin of PaperCoin – Turning Vision into Purpose</h2>
+  <p>The idea behind PaperCoin emerged from a growing awareness of the urgent challenges in the recycling industry and the potential of blockchain technology to drive real-world impact.</p>
+  <p>In 2022, I started working as a development engineer at a paper mill that processes 100% recycled paper. It didn’t take long for me to realize that high-quality wastepaper is becoming a rare commodity. The supply is shrinking, and demand keeps growing.</p>
+  <p>In late 2024, I got back into the crypto world and came across educational content from Cryptoshäre. That’s when I started to truly understand how cryptocurrencies work – and how they can create real incentives.</p>
+  <p>After several attempts on the Solana blockchain, I finally launched the PaperCoin project on the Base network in February 2025.</p>
+  <p><strong>PaperCoin is not just a token – it’s a mission.</strong> We want to reward recycling, support a circular economy, and make valuable raw materials more accessible through digital innovation.</p>
+
+  <div class="founder-box">
+    <img src="roy-eggert.jpg" alt="Roy Eggert">
+    <div class="founder-info">
+      <h3>Roy Eggert</h3>
+      <p>Founder of PaperCoin</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="fade-in" id="NFTCollection">
-    <h2>NFT Collection</h2>
-    <p>The First PaperCoin NFT Has Arrived!...<br />
-      <a href="https://app.manifold.xyz/c/wastepaper-ocean">Wastepaper Ocean</a>
-    </p>
-  </section>
+<section id="NFTCollection">
+  <h2>NFT Collection</h2>
+  <p>The First PaperCoin NFT Has Arrived! We proudly present the very first NFT of our journey — now available to mint on:</p>
+  <ul>
+    <li><a href="https://app.manifold.xyz/c/wastepaper-ocean">Wastepaper Ocean</a></li>
+  </ul>
+  <p>This artwork is just the beginning of a larger collection that will visually tell the story behind PaperCoin — from its origin to its global mission. More NFTs will follow soon, each adding a new chapter to this unfolding legacy.</p>
+  <p>Be part of history. Claim your limited piece now! (The full collection name will be revealed later — stay tuned.)</p>
+</section>
 
-  <section class="fade-in" id="buy">
-    <h2>How to Buy</h2>
-    <p>You can buy PaperCoin via the following platforms:</p>
-    <div class="exchange-logos">
-      <a href="https://app.uniswap.org/..."><img src="uniswap-icon.png" alt="Uniswap" /></a>
-      <a href="https://wallet.coinbase.com/..."><img src="coinbase-icon.png" alt="Coinbase Wallet" /></a>
-      <a href="https://tokepad.xyz/..."><img src="tokepad-icon.jpg" alt="Tokepad" /></a>
-    </div>
-  </section>
+<section id="buy">
+  <h2>How to Buy</h2>
+  <p>You can buy PaperCoin via the following platforms:</p>
+  <p class="exchange-logos">
+    <a href="https://app.uniswap.org/explore/tokens/base/0xdf872a292395f7093c210aceaf73d5cbd0490346?utm_medium=mobile&utm_source=share-tdp"><img src="uniswap-icon.png" alt="Uniswap"> Uniswap</a><br>
+    <a href="https://wallet.coinbase.com/links/VtA5nAftVQb"><img src="coinbase-icon.png" alt="Coinbase Wallet"> Coinbase Wallet</a><br>
+    <a href="https://tokepad.xyz/market/0x5f184c04dc6b53ab0f202e466bf7aa1f4fa88eb3"><img src="tokepad-icon.jpg" alt="Tokepad"> Tokepad</a>
+  </p>
+  <h2>Coin Info</h2>
+  <p class="exchange-logos">
+    <a href="https://www.geckoterminal.com/base/pools/0x5f184c04dc6b53ab0f202e466bf7aa1f4fa88eb3"><img src="coingecko-icon.png" alt="coingecko"> Coingecko</a>
+  </p>
+</section>
 
-  <section class="fade-in" id="contact">
-    <h2>Contact Us</h2>
-    <div class="social-icons">
-      <a href="mailto:roy.eggert@gmx.de"><img src="email-icon.png" alt="Email" /> Email</a><br />
-      <a href="https://t.me/+7cLd0k-tbbNiYWVi"><img src="telegram-icon.png" alt="Telegram" /> Telegram</a><br />
-      <a href="https://x.com/..."><img src="X-icon.jpg" alt="X" /> Twitter</a><br />
-    </div>
-  </section>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p class="social-icons">
+    <a href="mailto:roy.eggert@gmx.de"><img src="email-icon.png" alt="Email"> roy.eggert@gmx.de</a><br>
+    <a href="https://t.me/+7cLd0k-tbbNiYWVi"><img src="telegram-icon.png" alt="Telegram"> Telegram Group</a><br>
+    <a href="https://x.com/PaperCoin_Base?t=n9Ams0kHCLBDh_9uduKMZw&s=09"><img src="X-icon.jpg" alt="X"> X (Twitter)</a><br>
+    <a href="https://www.instagram.com/papercoin_base?igsh=cWhwc3VoeGpybmR3"><img src="instagram-icon.png" alt="Instagram"> Instagram</a><br>
+    <a href="https://www.linkedin.com/in/roy-eggert-602605359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin-icon.png" alt="LinkedIn"> LinkedIn</a>
+  </p>
+</section>
 
-  <section class="fade-in" id="impressum">
-    <h2>Impressum</h2>
-    <p>Roy Eggert<br />E-Mail: roy.eggert@gmx.de</p>
-  </section>
+<section id="impressum">
+  <h2>Impressum</h2>
+  <p>responsible for the content:<br>Roy Eggert<br>E-Mail: roy.eggert@gmx.de</p>
+</section>
 
 </main>
 
 <footer>
   &copy; 2025 PaperCoin. Created by Roy Eggert.
 </footer>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.main-nav ul');
-    burger.addEventListener('click', () => {
-      nav.classList.toggle('active');
-    });
-
-    const fadeElements = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, {
-      threshold: 0.1
-    });
-
-    fadeElements.forEach(el => observer.observe(el));
-  });
-</script>
 
 </body>
 </html>

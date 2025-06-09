@@ -1,0 +1,19 @@
+{
+  "name": "PaperCoin Token List",
+  "timestamp": "2025-06-09T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xdf872a292395f7093c210aceaf73d5cbd0490346",
+      "name": "PaperCoin",
+      "symbol": "PAPEC",
+      "decimals": 18,
+      "logoURI": "https://yourdomain.com/images/papec-logo.png"
+    }
+  ]
+}
